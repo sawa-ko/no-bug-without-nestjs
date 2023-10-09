@@ -1,0 +1,22 @@
+{
+  "name": "mikro-orm-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc --p tsconfig.json && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mikro-orm/core": "^5.8.7",
+    "@mikro-orm/postgresql": "^5.8.7",
+    "@mikro-orm/sqlite": "^5.8.7",
+    "@types/node": "^20.8.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
